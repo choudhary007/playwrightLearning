@@ -10,8 +10,6 @@ def testLogin ():
         search_box.fill("Playwright pyhton")
 
         search_box.press("Enter")
-        # page.wait_for_load_state("load")
-        # expect(page).to_have_title(lambda title: "Playwright" in title)
         expect(page.locator("h3")).to_be_visible()
         print(page.title())
         browser.close()
