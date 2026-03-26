@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main   # or master (check your branch)
+      - master  # or master (check your branch)
   workflow_dispatch:
     inputs:
       test_tag:
