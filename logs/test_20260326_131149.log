@@ -1,0 +1,15 @@
+2026-03-26 13:11:53,860 - LoginPage - INFO - Logging in with user: tomsmith
+2026-03-26 13:11:53,861 - LoginPage - INFO - Filling <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='#username'> with value: tomsmith
+2026-03-26 13:11:53,953 - LoginPage - INFO - Filling <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='#password'> with value: ****
+2026-03-26 13:11:53,985 - LoginPage - INFO - Clicking on element: <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='internal:role=button[name="Login"i]'>
+2026-03-26 13:11:54,753 - LoginPage - INFO - Click successful
+2026-03-26 13:12:01,285 - LoginPage - INFO - Logging in with user: wronguser
+2026-03-26 13:12:01,286 - LoginPage - INFO - Filling <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='#username'> with value: wronguser
+2026-03-26 13:12:01,372 - LoginPage - INFO - Filling <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='#password'> with value: ****
+2026-03-26 13:12:01,401 - LoginPage - INFO - Clicking on element: <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='internal:role=button[name="Login"i]'>
+2026-03-26 13:12:02,191 - LoginPage - INFO - Click successful
+2026-03-26 13:12:08,787 - LoginPage - INFO - Logging in with user: tomsmith
+2026-03-26 13:12:08,787 - LoginPage - INFO - Filling <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='#username'> with value: tomsmith
+2026-03-26 13:12:08,872 - LoginPage - INFO - Filling <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='#password'> with value: ****
+2026-03-26 13:12:08,902 - LoginPage - INFO - Clicking on element: <Locator frame=<Frame name= url='https://the-internet.herokuapp.com/login'> selector='internal:role=button[name="Login"i]'>
+2026-03-26 13:12:09,668 - LoginPage - INFO - Click successful

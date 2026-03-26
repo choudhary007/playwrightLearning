@@ -1,0 +1,1285 @@
+versions pytest-9.0.1, python-3.13.7.final.0
+invocation_dir=C:\Deepak\PlaywrightLearning
+cwd=C:\Deepak\PlaywrightLearning
+args=('tests/test_login_pom.py', '--html=report_ui.html', '--self-contained-html', '--debug=True')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x000001F2A330B620>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x000001F2A330B620>
+      pytest_metadata [hook]
+          metadata: {'Python': '3.13.7', 'Platform': 'Windows-11-10.0.26200-SP0', 'Packages': {'pytest': '9.0.1', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.12.0', 'asyncio': '1.3.0', 'html': '4.2.0', 'metadata': '3.1.1'}}
+          config: <_pytest.config.Config object at 0x000001F2A330B620>
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001F2A5A6C830>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001F2A5B081A0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: encodings.unicode_escape [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001F2A5C956A0>
+          plugin_name: 2141675148960
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+    early skip of rewriting module: rlcompleter [assertion]
+    early skip of rewriting module: readline [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+          plugin_name: 2141612108368
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001F2A330B620>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\anyio\\pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_asyncio.plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_asyncio\\plugin.py'>
+          plugin_name: asyncio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001F2A5A6E3C0>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001F2A59A79D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'C:\\Deepak\\PlaywrightLearning\\conftest.py'>
+          plugin_name: C:\Deepak\PlaywrightLearning\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001F2A5A6C830>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001F2A5B081A0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001F2A5C956A0>
+          plugin_name: 2141675148960
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001F2A5C96E40>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001F2A5C97620>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001F2A5C97770>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+          plugin_name: 2141612108368
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001F2A330B620>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\anyio\\pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_asyncio.plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_asyncio\\plugin.py'>
+          plugin_name: asyncio
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001F2A5A6E3C0>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001F2A59A79D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'C:\\Deepak\\PlaywrightLearning\\conftest.py'>
+          plugin_name: C:\Deepak\PlaywrightLearning\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001F2A5A6C830>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001F2A5B081A0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_html.selfcontained_report.SelfContainedReport object at 0x000001F2A5C956A0>
+          plugin_name: 2141675148960
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001F2A5C96E40>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x000001F2A5C97620>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001F2A5C97770>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000001F2A5D841A0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x000001F2A2076A50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_html_report_title [hook]
+          report: <pytest_html.report_data.ReportData object at 0x000001F2A5C95940>
+      finish pytest_html_report_title --> [] [hook]
+      pytest_html_results_table_header [hook]
+          cells: ['<th class="sortable" data-column-type="result">Result</th>', '<th class="sortable" data-column-type="testId">Test</th>', '<th class="sortable" data-column-type="duration">Duration</th>', '<th>Links</th>']
+      finish pytest_html_results_table_header --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x000001F2A330B620>
+          start_path: C:\Deepak\PlaywrightLearning
+          startdir: C:\Deepak\PlaywrightLearning
+      finish pytest_report_header --> [['asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function'], ['rootdir: C:\\Deepak\\PlaywrightLearning', 'plugins: anyio-4.12.0, asyncio-1.3.0, html-4.2.0, metadata-3.1.1'], ['using: pytest-9.0.1', 'registered third-party plugins:', '  anyio-4.12.0 at C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\anyio\\pytest_plugin.py', '  pytest-asyncio-1.3.0 at C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_asyncio\\plugin.py', '  pytest-html-4.2.0 at C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-html-4.2.0 at C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_html\\fixtures.py', '  pytest-metadata-3.1.1 at C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest_metadata\\plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests/test_login_pom.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('C:/Deepak/PlaywrightLearning/tests/test_login_pom.py'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+            pytest_collect_directory [hook]
+                path: C:\Deepak\PlaywrightLearning
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir PlaywrightLearning> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir PlaywrightLearning>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir PlaywrightLearning>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\.env
+                  path: C:\Deepak\PlaywrightLearning\.env
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\.env
+                  path: C:\Deepak\PlaywrightLearning\.env
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\.pytest_cache
+                  path: C:\Deepak\PlaywrightLearning\.pytest_cache
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\True
+                  path: C:\Deepak\PlaywrightLearning\True
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\True
+                  path: C:\Deepak\PlaywrightLearning\True
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\__pycache__
+                  path: C:\Deepak\PlaywrightLearning\__pycache__
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\conftest.py
+                  path: C:\Deepak\PlaywrightLearning\conftest.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\conftest.py
+                  path: C:\Deepak\PlaywrightLearning\conftest.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\pages
+                  path: C:\Deepak\PlaywrightLearning\pages
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Deepak\PlaywrightLearning\pages
+                  parent: <Dir PlaywrightLearning>
+              finish pytest_collect_directory --> <Package pages> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\report.html
+                  path: C:\Deepak\PlaywrightLearning\report.html
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\report.html
+                  path: C:\Deepak\PlaywrightLearning\report.html
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\report_ui.html
+                  path: C:\Deepak\PlaywrightLearning\report_ui.html
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\report_ui.html
+                  path: C:\Deepak\PlaywrightLearning\report_ui.html
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\test_data
+                  path: C:\Deepak\PlaywrightLearning\test_data
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Deepak\PlaywrightLearning\test_data
+                  parent: <Dir PlaywrightLearning>
+              finish pytest_collect_directory --> <Dir test_data> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\test_logger.py
+                  path: C:\Deepak\PlaywrightLearning\test_logger.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\test_logger.py
+                  path: C:\Deepak\PlaywrightLearning\test_logger.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Dir PlaywrightLearning>
+                    module_path: C:\Deepak\PlaywrightLearning\test_logger.py
+                    path: C:\Deepak\PlaywrightLearning\test_logger.py
+                finish pytest_pycollect_makemodule --> <Module test_logger.py> [hook]
+              finish pytest_collect_file --> [<Module test_logger.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\test_simple.log
+                  path: C:\Deepak\PlaywrightLearning\test_simple.log
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir PlaywrightLearning>
+                  file_path: C:\Deepak\PlaywrightLearning\test_simple.log
+                  path: C:\Deepak\PlaywrightLearning\test_simple.log
+              finish pytest_collect_file --> [] [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Deepak\PlaywrightLearning\tests
+                  parent: <Dir PlaywrightLearning>
+              finish pytest_collect_directory --> <Package tests> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\utils
+                  path: C:\Deepak\PlaywrightLearning\utils
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: C:\Deepak\PlaywrightLearning\utils
+                  parent: <Dir PlaywrightLearning>
+              finish pytest_collect_directory --> <Dir utils> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=5 outcome='passed'> [hook]
+            pytest_collectstart [hook]
+                collector: <Package tests>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Package tests>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\__init__.py
+                  path: C:\Deepak\PlaywrightLearning\tests\__init__.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\__init__.py
+                  path: C:\Deepak\PlaywrightLearning\tests\__init__.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\__pycache__
+                  path: C:\Deepak\PlaywrightLearning\tests\__pycache__
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\assertLogin.py
+                  path: C:\Deepak\PlaywrightLearning\tests\assertLogin.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\assertLogin.py
+                  path: C:\Deepak\PlaywrightLearning\tests\assertLogin.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\firstLogin.py
+                  path: C:\Deepak\PlaywrightLearning\tests\firstLogin.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\firstLogin.py
+                  path: C:\Deepak\PlaywrightLearning\tests\firstLogin.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\testLogin.py
+                  path: C:\Deepak\PlaywrightLearning\tests\testLogin.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\testLogin.py
+                  path: C:\Deepak\PlaywrightLearning\tests\testLogin.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\test_advance_ui.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_advance_ui.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\test_advance_ui.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_advance_ui.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package tests>
+                    module_path: C:\Deepak\PlaywrightLearning\tests\test_advance_ui.py
+                    path: C:\Deepak\PlaywrightLearning\tests\test_advance_ui.py
+                finish pytest_pycollect_makemodule --> <Module test_advance_ui.py> [hook]
+              finish pytest_collect_file --> [<Module test_advance_ui.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\test_dropdown.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_dropdown.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\test_dropdown.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_dropdown.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package tests>
+                    module_path: C:\Deepak\PlaywrightLearning\tests\test_dropdown.py
+                    path: C:\Deepak\PlaywrightLearning\tests\test_dropdown.py
+                finish pytest_pycollect_makemodule --> <Module test_dropdown.py> [hook]
+              finish pytest_collect_file --> [<Module test_dropdown.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\test_first.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_first.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\test_first.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_first.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package tests>
+                    module_path: C:\Deepak\PlaywrightLearning\tests\test_first.py
+                    path: C:\Deepak\PlaywrightLearning\tests\test_first.py
+                finish pytest_pycollect_makemodule --> <Module test_first.py> [hook]
+              finish pytest_collect_file --> [<Module test_first.py>] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001F2A330B620>
+                  collection_path: C:\Deepak\PlaywrightLearning\tests\test_login.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_login.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\test_login.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_login.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package tests>
+                    module_path: C:\Deepak\PlaywrightLearning\tests\test_login.py
+                    path: C:\Deepak\PlaywrightLearning\tests\test_login.py
+                finish pytest_pycollect_makemodule --> <Module test_login.py> [hook]
+              finish pytest_collect_file --> [<Module test_login.py>] [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: C:\Deepak\PlaywrightLearning\tests\test_login_pom.py
+                  path: C:\Deepak\PlaywrightLearning\tests\test_login_pom.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package tests>
+                    module_path: C:\Deepak\PlaywrightLearning\tests\test_login_pom.py
+                    path: C:\Deepak\PlaywrightLearning\tests\test_login_pom.py
+                finish pytest_pycollect_makemodule --> <Module test_login_pom.py> [hook]
+              finish pytest_collect_file --> [<Module test_login_pom.py>] [hook]
+            finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=5 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module test_login_pom.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_login_pom.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_login_pom.py>
+      early skip of rewriting module: tests [assertion]
+      find_module called for: tests.test_login_pom [assertion]
+      matched test file (was specified on cmdline): 'C:\\Deepak\\PlaywrightLearning\\tests\\test_login_pom.py' [assertion]
+      found cached rewritten pyc for C:\Deepak\PlaywrightLearning\tests\test_login_pom.py [assertion]
+      early skip of rewriting module: utils [assertion]
+      early skip of rewriting module: utils.data_loader [assertion]
+      early skip of rewriting module: pages [assertion]
+      early skip of rewriting module: pages.login_page [assertion]
+      early skip of rewriting module: pages.base_page [assertion]
+      early skip of rewriting module: utils.logger [assertion]
+      early skip of rewriting module: utils.config [assertion]
+      early skip of rewriting module: dotenv [assertion]
+      early skip of rewriting module: dotenv.main [assertion]
+      early skip of rewriting module: dotenv.parser [assertion]
+      early skip of rewriting module: dotenv.variables [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: pytest
+            obj: <module 'pytest' from 'C:\\Users\\deepa\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pytest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: load_test_data
+            obj: <function load_test_data at 0x000001F2A5D83060>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: LoginPage
+            obj: <class 'pages.login_page.LoginPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: BASE_URL
+            obj: https://the-internet.herokuapp.com
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x000001F2A5A6F230>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: os
+            obj: <module 'os' (frozen)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: BASE_DIR
+            obj: C:\Deepak\PlaywrightLearning
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: file_path
+            obj: C:\Deepak\PlaywrightLearning\test_data\login_data.json
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: test_data
+            obj: [{'username': 'tomsmith', 'password': 'SuperSecretPassword!', 'expected': 'You logged into a secure area!'}, {'username': 'wronguser', 'password': 'wrongpass', 'expected': 'Your username is invalid!'}, {'username': 'tomsmith', 'password': 'wrongpass', 'expected': 'Your password is invalid!'}]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_login_pom.py>
+            name: test_login_scenarios
+            obj: <function test_login_scenarios at 0x000001F2A5D82DE0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x000001F2A5D84AD0>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x000001F2A330B620>
+                val: {'username': 'tomsmith', 'password': 'SuperSecretPassword!', 'expected': 'You logged into a secure area!'}
+                argname: data
+            finish pytest_make_parametrize_id --> None [hook]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x000001F2A330B620>
+                val: {'username': 'wronguser', 'password': 'wrongpass', 'expected': 'Your username is invalid!'}
+                argname: data
+            finish pytest_make_parametrize_id --> None [hook]
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x000001F2A330B620>
+                val: {'username': 'tomsmith', 'password': 'wrongpass', 'expected': 'Your password is invalid!'}
+                argname: data
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_login_scenarios[data0]>, <Function test_login_scenarios[data1]>, <Function test_login_scenarios[data2]>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_login_pom.py' lenresult=3 outcome='passed'> [hook]
+    genitems <Function test_login_scenarios[data0]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login_scenarios[data0]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_login_scenarios[data1]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login_scenarios[data1]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_login_scenarios[data2]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login_scenarios[data2]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_login_pom.py' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x000001F2A330B620>
+          items: [<Function test_login_scenarios[data0]>, <Function test_login_scenarios[data1]>, <Function test_login_scenarios[data2]>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x000001F2A330B620>
+            items: [<Function test_login_scenarios[data0]>, <Function test_login_scenarios[data1]>, <Function test_login_scenarios[data2]>]
+            start_path: C:\Deepak\PlaywrightLearning
+            startdir: C:\Deepak\PlaywrightLearning
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=3>
+      pytest_runtest_protocol [hook]
+          item: <Function test_login_scenarios[data0]>
+          nextitem: <Function test_login_scenarios[data1]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_login_pom.py::test_login_scenarios[data0]
+            location: ('tests\\test_login_pom.py', 11, 'test_login_scenarios[data0]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_login_scenarios[data0]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='event_loop_policy' scope='session' baseid=''>
+              request: <SubRequest 'event_loop_policy' for <Function test_login_scenarios[data0]>>
+          finish pytest_fixture_setup --> <asyncio.windows_events.WindowsProactorEventLoopPolicy object at 0x000001F2A5D84590> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_scenarios[data0]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_login_scenarios[data0]>>
+          finish pytest_fixture_setup --> [hook]
+              username: tomsmith
+              password: SuperSecretPassword!
+              expected: You logged into a secure area!
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data0]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_login_scenarios[data0]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_login_scenarios[data0]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data0]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_login_scenarios[data0]>
+            nextitem: <Function test_login_scenarios[data1]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_login_scenarios[data0]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_scenarios[data0]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data0]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+          pytest_html_duration_format [hook]
+              duration: 1.9533570000203326
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='setup' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data0]::setup</td>', '<td class="col-duration">00:00:02</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='setup' outcome='passed'>
+              data: ['No log output captured.']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 7.677909400081262
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='call' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data0]</td>', '<td class="col-duration">00:00:08</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='call' outcome='passed'>
+              data: ['----------------------------- Captured stdout call -----------------------------\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\n', '----------------------------- Captured stderr call -----------------------------\n2026-03-26 13:11:53,860 - LoginPage - INFO - Logging in with user: tomsmith\n2026-03-26 13:11:53,861 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#username&#x27;&gt; with value: tomsmith\n2026-03-26 13:11:53,953 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#password&#x27;&gt; with value: ****\n2026-03-26 13:11:53,985 - LoginPage - INFO - Clicking on element: &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;internal:role=button[name=&quot;Login&quot;i]&#x27;&gt;\n2026-03-26 13:11:54,753 - LoginPage - INFO - Click successful\n']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 0.40508449997287244
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='teardown' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data0]::teardown</td>', '<td class="col-duration">405 ms</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data0]' when='teardown' outcome='passed'>
+              data: ['----------------------------- Captured stdout call -----------------------------\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\n', '----------------------------- Captured stderr call -----------------------------\n2026-03-26 13:11:53,860 - LoginPage - INFO - Logging in with user: tomsmith\n2026-03-26 13:11:53,861 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#username&#x27;&gt; with value: tomsmith\n2026-03-26 13:11:53,953 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#password&#x27;&gt; with value: ****\n2026-03-26 13:11:53,985 - LoginPage - INFO - Clicking on element: &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;internal:role=button[name=&quot;Login&quot;i]&#x27;&gt;\n2026-03-26 13:11:54,753 - LoginPage - INFO - Click successful\n']
+          finish pytest_html_results_table_html --> [] [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_login_pom.py::test_login_scenarios[data0]
+            location: ('tests\\test_login_pom.py', 11, 'test_login_scenarios[data0]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_login_scenarios[data1]>
+          nextitem: <Function test_login_scenarios[data2]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_login_pom.py::test_login_scenarios[data1]
+            location: ('tests\\test_login_pom.py', 11, 'test_login_scenarios[data1]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_login_scenarios[data1]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_scenarios[data1]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_login_scenarios[data1]>>
+          finish pytest_fixture_setup --> [hook]
+              username: wronguser
+              password: wrongpass
+              expected: Your username is invalid!
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data1]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_login_scenarios[data1]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_login_scenarios[data1]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data1]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_login_scenarios[data1]>
+            nextitem: <Function test_login_scenarios[data2]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_login_scenarios[data1]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_scenarios[data1]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data1]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+          pytest_html_duration_format [hook]
+              duration: 1.7656104000052437
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='setup' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data1]::setup</td>', '<td class="col-duration">00:00:02</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='setup' outcome='passed'>
+              data: ['No log output captured.']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 7.468275899998844
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='call' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data1]</td>', '<td class="col-duration">00:00:07</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='call' outcome='passed'>
+              data: ['----------------------------- Captured stdout call -----------------------------\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\n', '----------------------------- Captured stderr call -----------------------------\n2026-03-26 13:12:01,285 - LoginPage - INFO - Logging in with user: wronguser\n2026-03-26 13:12:01,286 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#username&#x27;&gt; with value: wronguser\n2026-03-26 13:12:01,372 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#password&#x27;&gt; with value: ****\n2026-03-26 13:12:01,401 - LoginPage - INFO - Clicking on element: &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;internal:role=button[name=&quot;Login&quot;i]&#x27;&gt;\n2026-03-26 13:12:02,191 - LoginPage - INFO - Click successful\n']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 0.44717579998541623
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='teardown' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data1]::teardown</td>', '<td class="col-duration">447 ms</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data1]' when='teardown' outcome='passed'>
+              data: ['----------------------------- Captured stdout call -----------------------------\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\n', '----------------------------- Captured stderr call -----------------------------\n2026-03-26 13:12:01,285 - LoginPage - INFO - Logging in with user: wronguser\n2026-03-26 13:12:01,286 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#username&#x27;&gt; with value: wronguser\n2026-03-26 13:12:01,372 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#password&#x27;&gt; with value: ****\n2026-03-26 13:12:01,401 - LoginPage - INFO - Clicking on element: &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;internal:role=button[name=&quot;Login&quot;i]&#x27;&gt;\n2026-03-26 13:12:02,191 - LoginPage - INFO - Click successful\n']
+          finish pytest_html_results_table_html --> [] [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_login_pom.py::test_login_scenarios[data1]
+            location: ('tests\\test_login_pom.py', 11, 'test_login_scenarios[data1]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_login_scenarios[data2]>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_login_pom.py::test_login_scenarios[data2]
+            location: ('tests\\test_login_pom.py', 11, 'test_login_scenarios[data2]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_login_scenarios[data2]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_scenarios[data2]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_login_scenarios[data2]>>
+          finish pytest_fixture_setup --> [hook]
+              username: tomsmith
+              password: wrongpass
+              expected: Your password is invalid!
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data2]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_login_scenarios[data2]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_login_scenarios[data2]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data2]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_login_scenarios[data2]>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='data' scope='function' baseid=''>
+              request: <SubRequest 'data' for <Function test_login_scenarios[data2]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_login_scenarios[data2]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='event_loop_policy' scope='session' baseid=''>
+              request: <SubRequest 'event_loop_policy' for <Function test_login_scenarios[data0]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login_scenarios[data2]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x000001F2A330B620>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+          pytest_html_duration_format [hook]
+              duration: 1.7550410999683663
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='setup' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data2]::setup</td>', '<td class="col-duration">00:00:02</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='setup' outcome='passed'>
+              data: ['No log output captured.']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 7.428171299863607
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='call' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data2]</td>', '<td class="col-duration">00:00:07</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='call' outcome='passed'>
+              data: ['----------------------------- Captured stdout call -----------------------------\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\n', '----------------------------- Captured stderr call -----------------------------\n2026-03-26 13:12:08,787 - LoginPage - INFO - Logging in with user: tomsmith\n2026-03-26 13:12:08,787 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#username&#x27;&gt; with value: tomsmith\n2026-03-26 13:12:08,872 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#password&#x27;&gt; with value: ****\n2026-03-26 13:12:08,902 - LoginPage - INFO - Clicking on element: &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;internal:role=button[name=&quot;Login&quot;i]&#x27;&gt;\n2026-03-26 13:12:09,668 - LoginPage - INFO - Click successful\n']
+          finish pytest_html_results_table_html --> [] [hook]
+          pytest_html_duration_format [hook]
+              duration: 0.3992066999198869
+          finish pytest_html_duration_format --> [] [hook]
+          pytest_html_results_table_row [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='teardown' outcome='passed'>
+              cells: ['<td class="col-result">Passed</td>', '<td class="col-testId">tests/test_login_pom.py::test_login_scenarios[data2]::teardown</td>', '<td class="col-duration">399 ms</td>', '<td class="col-links"></td>']
+          finish pytest_html_results_table_row --> [] [hook]
+          pytest_html_results_table_html [hook]
+              report: <TestReport 'tests/test_login_pom.py::test_login_scenarios[data2]' when='teardown' outcome='passed'>
+              data: ['----------------------------- Captured stdout call -----------------------------\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\nLOGGER OBJECT: &lt;Logger LoginPage (INFO)&gt;\n', '----------------------------- Captured stderr call -----------------------------\n2026-03-26 13:12:08,787 - LoginPage - INFO - Logging in with user: tomsmith\n2026-03-26 13:12:08,787 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#username&#x27;&gt; with value: tomsmith\n2026-03-26 13:12:08,872 - LoginPage - INFO - Filling &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;#password&#x27;&gt; with value: ****\n2026-03-26 13:12:08,902 - LoginPage - INFO - Clicking on element: &lt;Locator frame=&lt;Frame name= url=&#x27;https://the-internet.herokuapp.com/login&#x27;&gt; selector=&#x27;internal:role=button[name=&quot;Login&quot;i]&#x27;&gt;\n2026-03-26 13:12:09,668 - LoginPage - INFO - Click successful\n']
+          finish pytest_html_results_table_html --> [] [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_login_pom.py::test_login_scenarios[data2]
+            location: ('tests\\test_login_pom.py', 11, 'test_login_scenarios[data2]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=0 testsfailed=0 testscollected=3>
+        exitstatus: 0
+      pytest_html_results_summary [hook]
+          prefix: []
+          summary: []
+          postfix: []
+          session: <Session  exitstatus=0 testsfailed=0 testscollected=3>
+      finish pytest_html_results_summary --> [] [hook]
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001F2A5C96E40>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x000001F2A330B620>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x000001F2A330B620>
+    finish pytest_unconfigure --> [] [hook]
