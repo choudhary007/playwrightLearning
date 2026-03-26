@@ -16,6 +16,7 @@ def page():
 def handle_prompt(dialog):
     dialog.accept("Hello")
 
+@pytest.mark.smoke
 def test_accept_alert(page):
     page.goto(f"{BASE_URL}/javascript_alerts")
     expect(page).to_have_url(f"{BASE_URL}/javascript_alerts")
@@ -39,6 +40,7 @@ def test_accept_alert(page):
 #     page.click("text=Click for JS Prompt")
 #     expect(page.locator("#result")).to_contain_text("You entered: Hello")
 
+@pytest.mark.regression
 def test_handle_iframe(page):
     page.goto("https://www.selenium.dev/selenium/web/iframes.html")
 

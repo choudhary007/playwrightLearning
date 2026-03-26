@@ -1,30 +1,30 @@
-name: Playwright Tests
-
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
+    inputs:
+      test_tag:
+        description: 'Tag to run (smoke/regression)'
+        required: false
+        default: ''
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
-      - name: Install Playwright browsers
-        run: |
-          playwright install
+      - run: playwright install --with-deps
 
       - name: Run tests
         run: |
-          pytest --html=report.html --self-contained-html
+          if [ -z "${{ github.event.inputs.test_tag }}" ]; then
+            pytest -s -v
+          else
+            pytest -s -v -m "${{ github.event.inputs.test_tag }}"
+          fi
