@@ -12,6 +12,6 @@
   {
     "username": "tomsmith",
     "password": "wrongpass",
-    "expected": "Your password is invalid!!"
+    "expected": "Your password is invalid!"
   }
 ]
