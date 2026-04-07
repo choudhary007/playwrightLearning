@@ -20,6 +20,5 @@ This project demonstrates a scalable test automation framework built using Playw
 npm install
 npx playwright test
 
-## Demo:
 
-(Screenshots added below)
+
