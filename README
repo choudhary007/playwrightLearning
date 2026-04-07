@@ -1,0 +1,25 @@
+# Playwright Automation Framework
+
+This project demonstrates a scalable test automation framework built using Playwright.
+
+## Key Highlights:
+
+✔ Page Object Model (POM) implemented
+✔ Reusable and maintainable test structure
+✔ Automated UI test scenarios
+✔ Easy test execution and reporting
+
+## What I Offer:
+
+* End-to-end automation using Playwright
+* Framework setup from scratch
+* Bug identification and reporting
+
+## Run Tests:
+
+npm install
+npx playwright test
+
+## Demo:
+
+(Screenshots added below)
